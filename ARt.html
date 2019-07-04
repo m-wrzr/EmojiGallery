@@ -6,20 +6,18 @@
 <body >
   <a-scene embedded arjs='sourceType: webcam;'>
   		<a-assets>
-    			<img id="scream" src="https://github.com/m-wrzr/EmojiGallery/assets/shank.jpg">
-    			<img id="mona" src="https://github.com/m-wrzr/EmojiGallery/assets/fuchs.png">
-    			<img id="picasso" src="https://github.com/m-wrzr/EmojiGallery/assets/praslev.png">
-    			<img id="doug" src="https://github.com/m-wrzr/EmojiGallery/assets/kiwiktor.png">
-    			<a-asset-item id="david" src="david/scene.gltf"></a-asset-item>
+    			<img id="scream" src="https://raw.githubusercontent.com/m-wrzr/EmojiGallery/master/assets/shank.jpg">
+    			<img id="mona" src="https://raw.githubusercontent.com/m-wrzr/EmojiGallery/master/assets/fuchs.png">
+    			<img id="picasso" src="https://raw.githubusercontent.com/m-wrzr/EmojiGallery/master/assets/praslev.png">
+    			<img id="doug" src="https://raw.githubusercontent.com/m-wrzr/EmojiGallery/master/assets/kiwiktor.png">
  			
-    			
   		</a-assets>
   	
       <a-marker type='pattern' url='https://dougsillars.github.io/ARtGallery/ARMarker/pattern-marker1.patt'>
          <a-box position='0 0 0' scale="3.5 0.5 5" src ="#mona" ></a-box>
       </a-marker>
       
-            <a-marker type='pattern' url='https://dougsillars.github.io/ARtGallery/ARMarker/Doug.patt'>
+      <a-marker type='pattern' url='https://dougsillars.github.io/ARtGallery/ARMarker/pattern-marker4.patt'>
          <a-box position='0 0 0' scale="3.5 0.5 5" src ="#doug" ></a-box>
       </a-marker>
       
@@ -29,11 +27,6 @@
       
       <a-marker type='pattern' url='https://dougsillars.github.io/ARtGallery/ARMarker/pattern-marker3.patt'>
          <a-box position='0 0 0' scale="5 0.5 2.3" src ="#picasso" ></a-box>
-      </a-marker>
-      
-            
-      <a-marker type='pattern' url='https://dougsillars.github.io/ARtGallery/ARMarker/pattern-marker4.patt'>
-         <a-entity position='0 0 0'  gltf-model ="#david" ></a-entity>
       </a-marker>
       
   <a-entity camera>
